@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "In this repo I will try to cover major Data Structures in JS.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyrups/data-structures-in-js.git"
+  },
+  "keywords": [
+    "\"datastructure\"",
+    "\"data-structure\"",
+    "\"algorithms\"",
+    "\"javascript\""
+  ],
+  "author": "Rupesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imyrups/data-structures-in-js/issues"
+  },
+  "homepage": "https://github.com/imyrups/data-structures-in-js#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
