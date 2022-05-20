@@ -20,4 +20,12 @@ export class Stack<T> {
     public pop(): T {
         return this.top>=0 ? this.elements[this.top--] : null;
     }
+
+    public isEmpty(): boolean {
+        return this.elements.length === 0;
+    }
+
+    public size() :number {
+        return this.elements.length;
+    }
 }
